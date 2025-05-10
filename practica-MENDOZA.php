@@ -33,3 +33,15 @@ function saludar(string $nombre): string {
     return "Hola, $nombre. ¡Bienvenido!";
 }
 
+/**
+ * Multiplica dos números enteros.
+ *
+ * Esta función recibe dos números enteros y devuelve su producto.
+ *
+ * @param int $a El primer número.
+ * @param int $b El segundo número.
+ * @return int El resultado de la multiplicación.
+ */
+function multiplicar(int $a, int $b): int {
+    return $a * $b;
+}
